@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.svu.svucourses"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".application.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdminLoginActivity"
+            android:label="SVU Admin" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CourseViewActivity"
+            android:label="Course Details" >
+        </activity>
+        <activity
+            android:name=".AdminCourseListActivity"
+            android:label="SVU Courses" >
+        </activity>
+        <activity
+            android:name=".AdminEnrollmentListActivity"
+            android:label="SVU Enrollments" >
+        </activity>
+        <activity
+            android:name=".AdminSectionListActivity"
+            android:label="SVU Sections" >
+        </activity>
+        <activity
+            android:name=".AdminStudentListActivity"
+            android:label="SVU Students" >
+        </activity>
+        <activity
+            android:name=".AdminInstructorListActivity"
+            android:label="SVU Instructors" >
+        </activity>
+        <activity
+            android:name=".AdminCourseViewActivity"
+            android:label="Course Details" >
+        </activity>
+        <activity
+            android:name=".AdminSectionViewActivity"
+            android:label="Section Details" >
+        </activity>
+        <activity
+            android:name=".AdminStudentViewActivity"
+            android:label="Student Details" >
+        </activity>
+        <activity
+            android:name=".AdminInstructorViewActivity"
+            android:label="Instructor Details" >
+        </activity>
+        <activity
+            android:name=".AdminEnrollmentViewActivity"
+            android:label="Enrollment Details" >
+        </activity>
+        <activity
+            android:name=".AdminCourseSearchActivity"
+            android:label="Search courses" >
+        </activity>
+        <activity
+            android:name=".AdminStudentSearchActivity"
+            android:label="Search students" >
+        </activity>
+        <activity
+            android:name=".AdminInstructorSearchActivity"
+            android:label="Search instructors" >
+        </activity>
+    </application>
+
+</manifest>

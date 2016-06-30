@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.svu.svucourses.MainActivity" >
+
+    <item
+        android:id="@+id/mnu_new"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always"
+        android:title="New"/>
+    <item
+        android:id="@+id/mnu_courses"
+        android:showAsAction="never"
+        android:title="Courses"/>
+    <item
+        android:id="@+id/mnu_sections"
+        android:showAsAction="never"
+        android:title="Sections"
+        android:visible="false"/>
+    <item
+        android:id="@+id/mnu_enrollments"
+        android:showAsAction="never"
+        android:title="Enrollments"
+        android:visible="false"/>
+    <item
+        android:id="@+id/mnu_students"
+        android:showAsAction="never"
+        android:title="Students"/>
+    <item
+        android:id="@+id/mnu_instructors"
+        android:showAsAction="never"
+        android:title="Instructors"/>
+    <item
+        android:id="@+id/mnu_search"
+        android:showAsAction="always"
+        android:title="search"/>
+
+</menu>
